@@ -1,4 +1,4 @@
-\\\`mermaid
+```mermaid
 graph TD
 
     A["FROM_SCAN_NODE\nFROM"] --> B["WHERE_FILTER_NODE\nWHERE"]
@@ -7,5 +7,4 @@ graph TD
     D --> E["PROJECT_NODE\nSELECT"]
     E --> F["ORDER_BY_NODE\nORDER BY"]
     F --> G["LIMIT_NODE\nLIMIT"]
-
-\\\`
+```
