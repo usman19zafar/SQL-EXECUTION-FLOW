@@ -1,0 +1,10 @@
+```mermaid
+graph TD
+
+    A["FROM_SCAN_NODE\nFROM"] --> B["WHERE_FILTER_NODE\nWHERE"]
+    B --> C["GROUP_AGGREGATE_NODE\nGROUP BY"]
+    C --> D["HAVING_FILTER_NODE\nHAVING"]
+    D --> E["PROJECT_NODE\nSELECT"]
+    E --> F["ORDER_BY_NODE\nORDER BY"]
+    F --> G["LIMIT_NODE\nLIMIT"]
+```
